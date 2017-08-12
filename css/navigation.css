@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+.navbar
+{
+	font-family: "Julius Sans One";
+	border-radius: 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+.logo
+{
+	width: 26px;
+	height: 26px;
+	border-radius: 13px;
+}
+
+.navbar .container .navbar-header .navbar-brand{
+	color: white;
+}
+
+.navbar .container #mynavbar .navbar-nav>li>a
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: transparent;
+	color: white;
+	font-weight: lighter;
+}
+
+.navbar .container #mynavbar li form button
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	font-weight: lighter;
+}
+
+.navbar .container #mynavbar>ul>li>a:hover
+{
+	background-color: transparent;
+	color: #CCCC00;
+}
+
+.dropdown-menu li a:hover{
+	color: yellowgreen;
+}
+
+.navbar .container #mynavbar li a:focus
+{
+	background-color: transparent;
+	color: yellowgreen;
+}
+
+.navbar .container #mynavbar .active a
+{
+	background-color: black;
+	color: yellowgreen;
+}
+
+.icon-bar
+{
+	background-color: grey;
+}
+
+.navbar .container #mynavbar .nav .dropdown .dropdown-toggle .dropdown-menu li a{
+	color: yellowgreen;
+}
+
+
+/*Footer Navigation Bar*/
+
+.footer
+{
+	background-color: white;
+}
+
+.footer .container #mynavbar li a
+{
+	background-color: white;
+	color: black;
+}
+
+.footer .container #mynavbar li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.footer-background
+{
+	background-color: white;
+	margin-top: 0px;
+	border-top: 2px solid rgba(234,46,73,0.9);
+}
+
+.footer .container .navbar-header .footer-header
+{
+	color: rgba(234,46,73,0.9);
+}

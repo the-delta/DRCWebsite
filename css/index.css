@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+svg.banner {
+  width: 100%;
+  height: auto;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+body{
+/**  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+*/}
+
+.startup{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  background-color: #232323;
+  z-index: 1050;
+}
+
+@keyframes curtain {
+    0%{
+      bottom: 0%;
+    }
+    100%{
+      bottom: 100vh;
+    }
+}
+
+@keyframes curtain-right {
+    0%{
+      right: 0%;
+    }
+    100%{
+      right: 100%;
+    }
+}
+
+.startup-message{
+  position: relative;
+  width: 100%;
+  bottom: 25vh;
+  text-align: center;
+  font-family: "Zilla Slab Highlight";
+  color: grey;
+  font-size: 25px;
+}
+
+.welcome{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  background-color: #232323;
+  z-index: 1010;
+}
+
+.welcome-message{
+  position: relative;
+  width: 100%;
+  bottom: 25vh;
+  text-align: center;
+  font-family: "Zilla Slab Highlight";
+  color: grey;
+  font-size: 21px;
+}
+
+.content{
+  width: 100%;
+  height: 100vh;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.head{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  font-family: "Julius Sans One";
+  padding-top: 50px;
+  font-size: 30px;
+  color: white;
+  background: #2d6360 50% 0 url("../images/huntington.jpg") no-repeat;
+  background-image: url("../images/contours.png"), url("../images/noise.png"), url("../images/gridlines.png"), url("../images/huntington.jpg");
+}
+
+.text
+{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.left{
+  background-color: white;
+  height: 100vh;
+}
+
+.right{
+  background-color: rgba(0,0,0,1);
+  height: 100vh;
+}

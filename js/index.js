@@ -18,7 +18,9 @@ $(document).ready(function(){
 });
 
 function load(){
+  AOS.init();
   setTimeout(function(){
+    $(".startup").css("position", "absolute");
     $(".startup-message").html("");
     document.getElementsByClassName("startup")[0].style.animationName = "curtain";
 

@@ -23,8 +23,8 @@ function load(){
     $(".startup").css("position", "absolute");
     $(".startup-message").html("");
     document.getElementsByClassName("startup")[0].style.animationName = "curtain";
-
-  }, 1000);
+    $("body").css("overflow", "auto");
+  }, 2000);
   $(".data li:eq(0)").addClass("Active");
   $(".os li:eq(0)").addClass("Active");
 }

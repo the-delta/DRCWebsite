@@ -11,11 +11,8 @@ svg.banner {
   margin: 0px;
 }
 body{
-/**  background-image: url("../images/bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-*/}
+  overflow: hidden;
+}
 
 .startup{
   width: 100%;
@@ -115,7 +112,6 @@ body{
   color: black;
   font-family: "Julius Sans One";
   font-size: 20px;
-  overflow: auto;
 }
 
 .head-section-content
@@ -124,6 +120,7 @@ body{
   margin: 0 auto;
   padding-top: 20vh;
   padding-bottom: 20vh;
+  overflow: auto;
 }
 
 .head-section-heading{
@@ -150,4 +147,10 @@ body{
 #show-data, #show-os, #show-pass
 {
   font-size: 17px;
+}
+
+.contact{
+  font-family: "Zilla Slab Highlight";
+  color: white;
+  background-color: rgb(10,10,10);
 }

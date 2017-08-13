@@ -26,6 +26,7 @@ function load(){
 
   }, 1000);
   $(".data li:eq(0)").addClass("Active");
+  $(".os li:eq(0)").addClass("Active");
 }
 
 var type="";
@@ -62,4 +63,20 @@ function showData(type)
     $("#show-data").html("Com-Net can recover Data from your Memory card, MMC, SD, & other memory card with logical and physical issue. Now-a-days every one uses Memory card for Smart mobile, digital camera, and many devices which uses memory card for personal and business small size data because of handy and required storage for small devices, lost of data ( camera pictures, video, files, important data ) is nightmare for anyone, Don't worry Com-net Solutions will help you to recover you data.");
   }
   return false;
+}
+
+var os="";
+function showOs(os){
+  if(os === "Windows")
+  {
+    $(".os li").removeClass("Active");
+    $(".os li:eq(0)").addClass("Active");
+    $("#show-os").html("Com-net solutions recovering data from Microsoft Window 3.1 to all latest version of windows family. We also recover your important and valuable data from Home versions to Server versions. It doesn't matter whether it is FAT or NTFS file system, Logical problem ( windows not booting system ), crashed window, blue screen, missing partition, formatted, virus problem, accidentally deleted or your disk is making any noise or system restarts any time.");
+  }
+  if(os === "Linux")
+  {
+    $(".os li").removeClass("Active");
+    $(".os li:eq(1)").addClass("Active");
+    $("#show-os").html("Com-net Solutions can recover data from all types of Linux systems, unlike window FAT or NTFS, Linux system has different file system. Specialized skills are required in order to recover the data from the linux file system.");
+  }
 }

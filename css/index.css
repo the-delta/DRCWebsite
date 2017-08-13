@@ -85,24 +85,11 @@ body{
   position: absolute;
   top:100vh;
   width: 100%;
-  height: 200vh;
 }
 
 .row{
   margin-left: 0px;
   margin-right: 0px;
-}
-
-.head{
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  font-family: "Julius Sans One";
-  padding-top: 50px;
-  font-size: 30px;
-  color: white;
-  background: #2d6360 50% 0 url("../images/huntington.jpg") no-repeat;
-  background-image: url("../images/contours.png"), url("../images/noise.png"), url("../images/gridlines.png"), url("../images/huntington.jpg");
 }
 
 .text
@@ -117,28 +104,26 @@ body{
   background-color: white;
 }
 
-.right{
-  background-color: white;
-}
-
 .head-section
 {
   width: 80%;
+  height: 100vh;
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 5px;
   text-align: left;
   color: black;
   font-family: "Julius Sans One";
-  font-size: 25px;
+  font-size: 20px;
+  overflow: auto;
 }
 
 .head-section-content
 {
-  padding-top: 20vh;
-  padding-bottom: 20vh;
   width: 80%;
   margin: 0 auto;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
 .head-section-heading{
@@ -162,7 +147,7 @@ body{
   padding-top: 15px;
 }
 
-#show-data
+#show-data, #show-os, #show-pass
 {
   font-size: 17px;
 }

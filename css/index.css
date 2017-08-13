@@ -115,12 +115,10 @@ body{
 
 .left{
   background-color: white;
-  height: 100vh;
 }
 
 .right{
   background-color: white;
-  height: 100vh;
 }
 
 .head-section
@@ -128,14 +126,19 @@ body{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  height: 80vh;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
   border-radius: 5px;
   text-align: left;
   color: black;
   font-family: "Julius Sans One";
   font-size: 25px;
+}
+
+.head-section-content
+{
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .head-section-heading{
@@ -144,4 +147,22 @@ body{
   font-family: "Zilla Slab Highlight";
   font-size: 35px;
   margin-bottom: 30px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: black;
+}
+
+.nav-pills>li>a{
+  border-radius: 0;
+  width: 150px;
+  height:50px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#show-data
+{
+  font-size: 17px;
 }
